@@ -1,3 +1,16 @@
+"""
+A aplicação, após ser iniciada, apresentará ao usuário um menu repleto de possibilidades.
+
+O usuário terá a opção de cadastrar, listar e comprar produtos, além de visualizar o seu carrinho de compras ou sair
+da aplicação.
+
+Uma funcionalidade permitirá que, ao adicionar um produto no carrinho de compras, o sistema verifique se o mesmo item
+já existe no carrinho, possibilitando a atualização da quantidade.
+
+Ao finalizar a compra, o usuário será brindado com o total calculado com base nos produtos e quantidades inseridas
+no carrinho de compra.
+"""
+
 from typing import List, Dict
 from time import sleep
 
